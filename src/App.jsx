@@ -21,7 +21,7 @@ function App() {
           <p className="text-lg mb-6">
             My interest in understanding how applications work end-to-end from the user interface to server-side data processing Motivated me to learn React.js, Node.js, and databases like MongoDB. I'm committed to continuous learning and contributing to the development of impactful digital products.
           </p>
-
+        {/* Social Media Links */}
           <div className="flex flex-wrap gap-4 mb-6">
             <a href="https://www.linkedin.com/in/aryando-prasetya" target="_blank" className="bg-white text-black flex items-center justify-center 
         h-12 w-12 rounded-full">
@@ -35,6 +35,7 @@ function App() {
         h-12 w-12 rounded-full">
               <FaGithub />
             </a>
+            {/*CV Link */}
             <a
               href="/cv.pdf"
               download
@@ -43,7 +44,7 @@ function App() {
               <FaDownload /> My Curriculum Vitae
             </a>
           </div>
-          
+          {/* Education Section */}
           <h2 className="text-left text-2xl font-bold mb-4">Education</h2>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[320px] border-collapse border border-gray-300 mb-6">
@@ -74,7 +75,7 @@ function App() {
             </table>
           </div>
           
-
+        {/* Training Section */}
           <h2 className="text-left text-2xl font-bold mb-4">Training</h2>
 
           <div className="overflow-x-auto">
@@ -96,6 +97,7 @@ function App() {
             </table>
           </div>
 
+        {/* Skills Section */}
           <h2 className="text-lime-300 text-left text-2xl font-bold mb-4">Skills</h2>
           <div className="overflow-x-auto text-lime-300">
             <table className="w-full min-w-[320px] border-collapse">
@@ -151,6 +153,7 @@ function App() {
             <br />
           </div>
 
+        {/* Hobbies Section */}
           <h2 className="text-lime-300 text-left text-2xl font-bold mb-4">Hobbies</h2>
           <div className="overflow-x-auto text-left text-lime-300">
             <ol className="list-decimal list-inside">
@@ -168,7 +171,7 @@ function App() {
 
             </p>
           
-
+        {/* Contact Section */}
           <div className="mt-8">
             <h2 className="text-xl font-bold mb-2">Contact</h2>
             <p>Email: aryandoprasetya97@gmail.com</p>
