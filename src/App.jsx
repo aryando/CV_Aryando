@@ -23,15 +23,15 @@ function App() {
           </p>
 
           <div className="flex flex-wrap gap-4 mb-6">
-            <a href="https://www.linkedin.com/in/aryando-prasetya" className="bg-white text-black flex items-center justify-center 
+            <a href="https://www.linkedin.com/in/aryando-prasetya" target="_blank" className="bg-white text-black flex items-center justify-center 
         h-12 w-12 rounded-full">
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/aryandoprstya?igsh=eGF4cGRubHljOGZl" className="bg-white text-black flex items-center justify-center 
+            <a href="https://www.instagram.com/aryandoprstya?igsh=eGF4cGRubHljOGZl" target="_blank" className="bg-white text-black flex items-center justify-center 
         h-12 w-12 rounded-full">
               <FaInstagram />
             </a>
-            <a href="https://github.com/aryando" className="bg-white text-black flex items-center justify-center 
+            <a href="https://github.com/aryando" target="_blank" className="bg-white text-black flex items-center justify-center 
         h-12 w-12 rounded-full">
               <FaGithub />
             </a>
